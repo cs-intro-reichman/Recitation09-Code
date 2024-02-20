@@ -21,7 +21,9 @@ public class Main {
     public static void print3DArr (int [][][] arr){
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.println(arr[i][j]);
+                for (int k = 0; k < arr[i][j].length; k++) {
+                    System.out.println(arr[i][j][k]);
+                }
             }
         }
     }
