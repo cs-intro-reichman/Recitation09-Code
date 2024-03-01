@@ -2,7 +2,7 @@ import java.security.InvalidParameterException;
 
 public class LinkedListS {
     private NodeS first;
-    private int size;
+    private int size; // comment
 
     public LinkedListS() {
         this.first = null;
